@@ -51,7 +51,8 @@
   "module": "./esm/index.js",
   "type": "module",
   "exports": {
-    "import": "./esm/index.js",
-    "default": "./cjs/index.js"
+    "./esm": "./esm/index.js",
+    "./cjs": "./cjs/index.js",
+    ".": "./cjs/index.js"
   }
 }
